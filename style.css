@@ -1,0 +1,384 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Style Header */
+header {
+  background-color: #2c0b09;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 16px;
+  box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset, 0px 4px 2px 0px rgba(255, 255, 255, 0.25) inset, 4px 4px 26px 0px rgba(255, 255, 255, 0.25) inset, 0px 40px 80px 0px rgba(0, 0, 0, 0.1);
+}
+
+#about-us {
+  text-decoration: underline;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 10px;
+  font-size: small;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  padding: 2px;
+}
+nav ul :hover {
+  color: #ff3d00;
+}
+
+.navbar li {
+  list-style-type: none;
+  padding: 10px;
+  font-size: small;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropbtn {
+  margin-right: 20px;
+  border: none;
+  font-size: 20px;
+  padding: 0px 5px;
+  width: 100px;
+  background-color: #fff;
+  font-size: small;
+  font-weight: 600;
+  cursor: pointer;
+  color: #2c0b09;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 7px 30px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.dropdown-content a:hover {
+  background: #942720;
+  border-radius: 5px;
+}
+
+.show {
+  display: block;
+}
+/* End Style Header */
+
+/* Style Content Main title */
+main {
+  background-image: url(img/1.jpg);
+  background-size: cover;
+  padding: 160px 55px;
+  margin: 25px 10px 20px 10px;
+  border-radius: 10px;
+}
+
+.h1-main {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.h2-main {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* End Style Content Main title */
+
+/* Style Arti Nama Eureka */
+section {
+  margin: 60px 60px 50px 60px;
+}
+
+.title-arti {
+  font-family: Rubik;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(180deg, #82211d 0%, #540a07 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.paragraf-arti {
+  margin-top: 7px;
+  color: #000;
+  text-align: justify;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* End Style Arti Nama Eureka */
+
+/* Style Visi & Misi */
+.visi-misi {
+  margin: 70px 60px 0px 60px;
+}
+
+.visi {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(180deg, #82211d 0%, #540a07 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 7px;
+}
+
+.p-visi {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.misi {
+  margin-top: 30px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(180deg, #82211d 0%, #540a07 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 7px;
+}
+
+.list-visi {
+  margin-left: 20px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* End Style Visi & Misi */
+
+/* Style Line */
+hr {
+  stroke-width: 3px;
+  margin: 40px 20px 0px 20px;
+  height: 3px;
+  color: #000;
+  background-color: #000;
+}
+/* End Style Line */
+
+/* Style Team Eureka */
+.title-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px 30px 0px;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(180deg, #be150d 19.3%, #470502 78.95%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: linear-gradient(0deg, #351f1e 0%, #86221e 100%);
+  gap: 10px;
+  padding: 30px;
+}
+
+.about-img {
+  width: 250px;
+  height: 230px;
+  flex-shrink: 0;
+  border-radius: 11px;
+}
+
+.team-title {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.team-description {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.icon {
+  background-color: red;
+  padding: 0px 20px;
+  gap: 100px;
+}
+
+.icon-team {
+  mix-blend-mode: exclusion;
+  width: 20px;
+  cursor: pointer;
+}
+.about-icon {
+  margin-top: 20px;
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 70px;
+}
+/* End Style Team Eureka */
+
+/* Style Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 125px 0px 0px 0px;
+  background: linear-gradient(213deg, #86211d 17.43%, #1e1e1e 77.99%);
+  padding: 10px;
+}
+
+.h3 {
+  color: #fff;
+  font-size: x-large;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.gambar-footer {
+  width: 20px;
+  height: 20px;
+  mix-blend-mode: exclusion;
+  filter: brightness(100%);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 11px;
+  width: 100%;
+  margin-top: 10px;
+}
+/* End Style Footer */
+
+/* Style Media Screen Device Hp */
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+    padding-bottom: 15px;
+  }
+  .logo {
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  main {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    border-radius: 0px;
+    padding: 150px 25px;
+  }
+  .h1-main {
+    font-size: 20px;
+  }
+  .h2-main {
+    font-size: 30px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  footer {
+    margin-top: 70px;
+  }
+  .footer {
+    font-size: 6px;
+  }
+}
+/* End Style Media Screen Device Hp */
